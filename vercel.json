@@ -1,0 +1,5 @@
+{
+    "buildCommand": "cd mint-fresh-web && npm run build",
+    "outputDirectory": "mint-fresh-web/dist",
+    "installCommand": "cd mint-fresh-web && npm install"
+}
