@@ -77,3 +77,59 @@ body {
 .welcome-card p {
   color: var(--text-light);
 }
+
+/* Push Notification Manager Styles */
+.features-card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.notification-prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.notification-prompt p {
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+}
+
+.notification-status {
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+}
+
+.notification-status.granted {
+  background-color: #E8F8F5;
+  color: var(--primary-dark);
+}
+
+.notification-status.denied {
+  background-color: #FDEDEC;
+  color: #C0392B;
+}

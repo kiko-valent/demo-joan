@@ -1,3 +1,5 @@
+import PushNotificationManager from './PushNotificationManager'
+
 function App() {
   return (
     <div className="app-container">
@@ -9,6 +11,9 @@ function App() {
         <div className="welcome-card">
           <h2>¡Bienvenido!</h2>
           <p>La nueva aplicación web está lista para empezar a construirse.</p>
+        </div>
+        <div className="features-card">
+          <PushNotificationManager />
         </div>
       </main>
     </div>
